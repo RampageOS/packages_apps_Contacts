@@ -88,7 +88,6 @@
         <!-- Popup menu -->
         <item name="android:popupMenuStyle">@style/PopupMenuStyle</item>
         <item name="android:popupTheme">@style/PopupMenuStyle</item>
-        <item name="android:contextPopupMenuStyle">@style/PopupMenuStyle</item>
     </style>
 
     <style name="LaunchScreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
