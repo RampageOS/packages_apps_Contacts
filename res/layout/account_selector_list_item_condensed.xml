@@ -39,7 +39,7 @@
             android:layout_marginRight="8dip"
             android:layout_marginEnd="8dip"
             android:textSize="16sp"
-            android:textColor="@color/contacts_text_color"
+            android:textColor="@*android:color/accent_device_default_light"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:singleLine="true"
             android:ellipsize="end"/>
