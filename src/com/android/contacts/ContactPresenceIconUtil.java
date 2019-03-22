@@ -37,7 +37,7 @@ public class ContactPresenceIconUtil {
             case StatusUpdates.AWAY:
             case StatusUpdates.DO_NOT_DISTURB:
             case StatusUpdates.INVISIBLE:
-                return context.getResources().getDrawable(
+                return context.getDrawable(
                         StatusUpdates.getPresenceIconResourceId(status));
             case StatusUpdates.OFFLINE:
             // The undefined status is treated as OFFLINE in getPresenceIconResourceId();

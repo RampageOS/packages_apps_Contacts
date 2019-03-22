@@ -286,7 +286,7 @@ public class DataAction implements Action {
 
         final String resourcePackageName = mKind.resourcePackageName;
         if (resourcePackageName == null) {
-            return mContext.getResources().getDrawable(mAlternateIconRes);
+            return mContext.getDrawable(mAlternateIconRes);
         }
 
         final PackageManager pm = mContext.getPackageManager();

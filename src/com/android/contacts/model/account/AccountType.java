@@ -283,7 +283,7 @@ public abstract class AccountType {
             final PackageManager pm = context.getPackageManager();
             return pm.getDrawable(syncAdapterPackageName, iconRes, null);
         } else if (titleRes != -1) {
-            return context.getResources().getDrawable(iconRes);
+            return context.getDrawable(iconRes);
         } else {
             return null;
         }
