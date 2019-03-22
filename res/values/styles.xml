@@ -608,4 +608,9 @@ background and text color. See also android:style/Widget.Holo.TextView.ListSepar
         <item name="android:textColor">@color/quantum_black_secondary_text</item>
         <item name="android:layout_width">match_parent</item>
     </style>
+
+    <style name="checkBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@*android:color/accent_device_default_light</item> <!-- Cecked color -->
+        <item name="android:textColorSecondary">@color/secondary_text_color</item> <!-- Unchecked color -->
+    </style>
 </resources>

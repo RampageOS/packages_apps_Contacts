@@ -79,6 +79,8 @@
 
     <CheckBox
         android:id="@+id/yearToggle"
+        android:theme="@style/checkBoxStyle"
+        android:textColor="@color/dialtacts_secondary_text_color"
         android:text="@string/date_year_toggle"
         android:padding="10dip"
         android:layout_width="wrap_content"
