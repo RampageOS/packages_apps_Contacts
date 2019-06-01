@@ -369,7 +369,7 @@
     <dimen name="call_subject_history_item_padding">15dp</dimen>
 
     <!-- The width of the drawer -->
-    <dimen name="drawer_width">320dp</dimen>
+    <dimen name="drawer_width">250dp</dimen>
     <!-- Minimum height of items in navigation drawer -->
     <dimen name="drawer_item_fixed_height">48dp</dimen>
     <!-- Side padding within the navigation drawer -->
