@@ -245,7 +245,7 @@
     <color name="alert_background">#e0e0e0</color>
 
     <!-- Divider color in navigation drawer -->
-    <color name="drawer_divider_color">#E5E5E5</color>
+    <color name="drawer_divider_color">@color/navigation_drawer_background_color</color>
 
     <!-- Background color for the navigation drawer -->
     <color name="navigation_drawer_background_color">#FAFAFA</color>
