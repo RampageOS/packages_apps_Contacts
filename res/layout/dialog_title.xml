@@ -22,6 +22,7 @@
     android:paddingEnd="24dp"
     android:textSize="20sp"
     android:textAlignment="viewStart"
+    android:textColor="@color/quantum_black_text"
     android:fontFamily="sans-serif-medium"
     android:ellipsize="end"
 />

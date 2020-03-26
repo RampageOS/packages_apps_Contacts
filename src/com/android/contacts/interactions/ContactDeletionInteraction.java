@@ -302,7 +302,7 @@ public class ContactDeletionInteraction extends Fragment
     }
 
     private void showDialog(int messageId, int positiveButtonId, final Uri contactUri) {
-        mDialog = new AlertDialog.Builder(getActivity())
+        mDialog = new AlertDialog.Builder(getActivity(), R.style.ContactsAlertDialogTheme)
                 .setIconAttribute(android.R.attr.alertDialogIcon)
                 .setMessage(messageId)
                 .setNegativeButton(android.R.string.cancel, null)

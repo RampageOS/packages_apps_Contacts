@@ -270,7 +270,7 @@ public class ContactMultiDeletionInteraction extends Fragment
 
     private void showDialog(int messageId, int positiveButtonId, final long[] contactIds,
             final String[] namesArray) {
-        mDialog = new AlertDialog.Builder(getActivity())
+        mDialog = new AlertDialog.Builder(getActivity(), R.style.ContactsAlertDialogTheme)
                 .setIconAttribute(android.R.attr.alertDialogIcon)
                 .setMessage(messageId)
                 .setNegativeButton(android.R.string.cancel, null)

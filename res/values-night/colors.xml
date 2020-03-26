@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Backgrounds -->
+    <color name="background_primary">@*android:color/primary_device_default_settings</color>
+    <color name="empty_state_background">@*android:color/primary_device_default_settings</color>
+
+    <!-- Primary text colors in Contacts app -->
+    <color name="primary_text_color">@*android:color/white</color>
+    <color name="secondary_text_color">@*android:color/material_grey_300</color>
+    <color name="contacts_text_color">@*android:color/white</color>
+    <color name="contact_all_list_background_color">@*android:color/primary_device_default_settings</color>
+    <color name="contact_list_name_text_color">@*android:color/white</color>
+    <color name="editor_disabled_text_color">#40ffffff</color>
+    <color name="disabled_button_text">#40ffffff</color>
+    <color name="actionbar_text_color_black">#DFffffff</color>
+    <!-- 87% white -->
+    <color name="quantum_black_text">#ddffffff</color>
+    <!-- 54% white -->
+    <color name="quantum_black_secondary_text">#89ffffff</color>
+    <!-- 38% white -->
+    <color name="quantum_black_hint_text">#61ffffff</color>
+
+    <color name="ripple_material_dark">#a0ffffff</color>
+    <color name="quickcontact_entry_sub_header_text_color">@*android:color/material_grey_300</color>
+    <color name="quickcontact_entry_header_text_color">@*android:color/white</color>
+    <color name="call_subject_history_background">@*android:color/primary_device_default_settings</color>
+
+    <!-- Color of the status bar above the contextual selection bar. -->
+    <color name="contextual_selection_bar_status_bar_color">@*android:color/primary_device_default_settings</color>
+    <color name="contextual_selection_bar_color">@*android:color/primary_device_default_settings</color>
+
+    <!-- Background color for the current selected item in the navigation drawer -->
+    <color name="drawer_selected_color">@*android:color/secondary_device_default_settings</color>
+    <color name="navigation_drawer_background_color">@*android:color/primary_device_default_settings</color>
+
+    <!-- Background color for an ExpandingEntryCard -->
+    <color name="expanding_entry_card_background_color">@*android:color/primary_device_default_settings</color>
+    <color name="expanding_entry_card_button_text_color">@*android:color/white</color>
+
+    <!-- Background color of the search box -->
+    <color name="searchbox_background_color">@*android:color/primary_device_default_settings</color>
+    <color name="searchbox_text_color">@*android:color/white</color>
+    <color name="searchbox_hint_text_color">#66ffffff</color>
+
+</resources>
